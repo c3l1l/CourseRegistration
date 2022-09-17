@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassRegistration.Entities", "ClassRegistration.Entities\ClassRegistration.Entities.csproj", "{81E0291C-32C6-499E-8053-4DBBE04D9F65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassRegistration.Entities", "ClassRegistration.Entities\ClassRegistration.Entities.csproj", "{81E0291C-32C6-499E-8053-4DBBE04D9F65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassRegistration.DataAccess", "ClassRegistration.DataAccess\ClassRegistration.DataAccess.csproj", "{66556175-AE28-415D-8ECF-83C7223A4FDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassRegistration.DataAccess", "ClassRegistration.DataAccess\ClassRegistration.DataAccess.csproj", "{66556175-AE28-415D-8ECF-83C7223A4FDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassRegistration.Business", "ClassRegistration.Business\ClassRegistration.Business.csproj", "{F962A408-DD66-4B29-9E35-67054DCCD589}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassRegistration.Business", "ClassRegistration.Business\ClassRegistration.Business.csproj", "{F962A408-DD66-4B29-9E35-67054DCCD589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassRegistration.API", "ClassRegistration.API\ClassRegistration.API.csproj", "{E81B50C8-4732-4896-B63B-B45FD122F494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassRegistration.API", "ClassRegistration.API\ClassRegistration.API.csproj", "{E81B50C8-4732-4896-B63B-B45FD122F494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassRegistration.Test", "ClassRegistration.Test\ClassRegistration.Test.csproj", "{3035D205-4A9B-4D46-B13E-5ED888E7DC26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E81B50C8-4732-4896-B63B-B45FD122F494}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E81B50C8-4732-4896-B63B-B45FD122F494}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E81B50C8-4732-4896-B63B-B45FD122F494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3035D205-4A9B-4D46-B13E-5ED888E7DC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3035D205-4A9B-4D46-B13E-5ED888E7DC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3035D205-4A9B-4D46-B13E-5ED888E7DC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3035D205-4A9B-4D46-B13E-5ED888E7DC26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
